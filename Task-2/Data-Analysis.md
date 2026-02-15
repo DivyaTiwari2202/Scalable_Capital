@@ -10,7 +10,6 @@ ORDER BY songs_listened DESC, user_name
 LIMIT 10;
 ```
 
-Example screenshot markdown:
 
 ![Top users by listens](images/Top-10-users-by-listens.png)
 
@@ -24,7 +23,6 @@ FROM listens
 WHERE CAST(listened_at_ts AS DATE) = '2019-03-01';
 ```
 
-Screenshot placeholder:
 
 ![Active users on 2019-03-01](images/Active-users-on-specific-date.jpeg)
 
@@ -51,7 +49,6 @@ QUALIFY
 ORDER BY f.user_name;
 ```
 
-Screenshot placeholder:
 
 ![First listen per user](images/First-listen-per-user.jpeg)
 
@@ -79,7 +76,6 @@ ORDER BY
   "date" ASC;
 ```
 
-Screenshot placeholder:
 
 ![Top 3 dates per user](images/Top-3-dates-per-user.jpeg)
 
@@ -123,7 +119,6 @@ GROUP BY date, au.total_users
 ORDER BY date;
 ```
 
-Screenshot placeholder:
 
 ![Daily active users (DAU) and active user rate](images/Daily-active-users-and-active-user-rate.jpeg)
 
