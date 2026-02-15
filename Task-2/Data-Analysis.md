@@ -12,9 +12,7 @@ LIMIT 10;
 
 Example screenshot markdown:
 
-```markdown
-![Top users by listens](Top-10-users-by-listens.png)
-```
+![Top users by listens](images/Top-10-users-by-listens.png)
 
 ---
 
@@ -28,9 +26,7 @@ WHERE CAST(listened_at_ts AS DATE) = '2019-03-01';
 
 Screenshot placeholder:
 
-```markdown
-![Active users on 2019-03-01](Active-users-on-specific-date.jpeg)
-```
+![Active users on 2019-03-01](images/Active-users-on-specific-date.jpeg)
 
 ---
 
@@ -57,9 +53,7 @@ ORDER BY f.user_name;
 
 Screenshot placeholder:
 
-```markdown
-![First listen per user](First-listen-per-user.jpeg)
-```
+![First listen per user](images/First-listen-per-user.jpeg)
 
 ---
 
@@ -87,9 +81,7 @@ ORDER BY
 
 Screenshot placeholder:
 
-```markdown
-![Top 3 dates per user](Top-3-dates-per-user.jpeg)
-```
+![Top 3 dates per user](images/Top-3-dates-per-user.jpeg)
 
 ---
 
@@ -133,8 +125,6 @@ ORDER BY date;
 
 Screenshot placeholder:
 
-```markdown
-![Daily active users (DAU) and active user rate](Daily-active-users-and-active-user-rate.jpeg)
-```
+![Daily active users (DAU) and active user rate](images/Daily-active-users-and-active-user-rate.jpeg)
 
 ---
